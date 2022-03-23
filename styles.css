@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: hsl(217, 54%, 11%);
+	color: white;
+	font-weight: 300;
+	font-family: 'Outfit', sans-serif;
+}
+hr{
+	color: hsl(215, 32%, 27%);
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: hsl(178, 100%, 50%);
+}
+.card{
+	background: hsl(216, 50%, 16%);
+	max-width: 325px;
+	padding: 22px;
+	border-radius: 10px;
+	margin: 25px auto;
+}
+.cube{
+	max-width: 281px;
+	max-height: inherit;
+}
+.card-image{
+	width: 281px;
+	height: 281px;
+	background: url("images/icon-view.svg") no-repeat center hsl(178, 100%, 50%);
+}
+.card-image img:hover{
+	opacity: 0.4;
+}
+
+.card-header{
+	margin: 20px 0;
+}
+.icons{
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+.eth{
+	color: hsl(178, 100%, 50%);
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+}
+.eth img, .clock img{
+	margin-right: 5px;
+}
+.clock{
+	display: flex;
+	align-items: center;
+}
+.foot{
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+}
+.foot img{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #FFFFFF;
+	border-radius: 100%;
+	margin-right: 10px;
+}
